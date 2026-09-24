@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:ui": "playwright test --ui",
+    "test:login": "playwright test login/login.spec.js --project=chromium"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
